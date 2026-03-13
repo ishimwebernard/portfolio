@@ -49,15 +49,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="inline-flex items-center gap-2 border border-[color:var(--win-border)] bg-[color:var(--win-surface)] px-4 py-2 text-xs font-medium text-[color:var(--win-muted)]">
-                  BSc. Civil and Transportation Engineering
+                  Transportation and Machine Learning Engineer
                 </div>
                 <h1 className="mt-5 text-4xl font-semibold tracking-tight text-[color:var(--win-fg)] sm:text-5xl">
                   {cv.name}
                 </h1>
                 <p className="mt-4 max-w-2xl text-base leading-7 text-[color:var(--win-muted)]">
-                  Civil & Transportation Engineering background with experience in
-                  geospatial analysis and applied machine learning (computer vision),
-                  supporting transport planning and research.
+                  The goal is to bring as much tech as possible to the transportation engineering industry! Neural Networks, Data Clustering, Robotics, Computer Vision: These are my Avengers.
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">
@@ -202,51 +200,6 @@ export default function Home() {
             </div>
           </Section>
 
-          <Section id="research" eyebrow="Work" title="Research, Training & Leadership">
-            <div className="grid gap-5 lg:grid-cols-2">
-              <Card>
-                <div className="text-sm font-semibold text-[color:var(--win-fg)]">
-                  Advanced Training
-                </div>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-[color:var(--win-muted)]">
-                  {cv.advancedTraining.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </Card>
-              <Card>
-                <div className="text-sm font-semibold text-[color:var(--win-fg)]">
-                  Professional Affiliations
-                </div>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-[color:var(--win-muted)]">
-                  {cv.affiliations.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </Card>
-              <Card>
-                <div className="text-sm font-semibold text-[color:var(--win-fg)]">
-                  Academic Achievements & Awards
-                </div>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-[color:var(--win-muted)]">
-                  {cv.awards.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </Card>
-              <Card>
-                <div className="text-sm font-semibold text-[color:var(--win-fg)]">
-                  Mentorship
-                </div>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-[color:var(--win-muted)]">
-                  {cv.mentorship.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </Card>
-            </div>
-
-          </Section>
 
           <Section id="contact" eyebrow="Get in touch" title="Contact">
             <Card>
@@ -278,12 +231,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="mt-6 text-sm text-[color:var(--win-muted)]">
-                <span className="font-mono text-[color:var(--win-fg)]">
-                  src/data/cv.ts
-                </span>{" "}
-                to make the buttons above clickable.
-              </div>
+
             </Card>
           </Section>
         </Container>

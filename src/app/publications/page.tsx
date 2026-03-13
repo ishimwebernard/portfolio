@@ -28,8 +28,7 @@ export default function PublicationsPage() {
               Coming soon
             </div>
             <div className="mt-3 text-sm leading-6 text-[color:var(--win-muted)]">
-              This page will list publications, reports, and write-ups. For now,
-              you can review the Research Products section on the homepage.
+              This page will list publications, reports, and write-ups.
             </div>
             <div className="mt-5">
               <Link

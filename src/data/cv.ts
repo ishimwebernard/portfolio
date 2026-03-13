@@ -42,14 +42,6 @@ export const cv = {
         "Relevant Coursework: Traffic Engineering and Safety, Intelligent Transport Systems, Project Planning and Scheduling, Pavement Materials and Asphalt Mix Design, Spatial Planning, Construction Materials and Technology, Finite Element Modelling (FEM), Reinforced Concrete Design, AutoCAD Civil 3D, Design of Drainage Structures, C programming language.",
       ],
     },
-    {
-      school: "Ecole des Sciences Byimana",
-      dates: "February 2016 – December 2018",
-      degreeOrProgram: "Advanced Level — Mathematics, Physics and Computer Science",
-      details: [
-        "Statistical Modeling, Linear Regression, Programming with C/C++ and Java",
-      ],
-    },
   ] satisfies CvEducation[],
   skills: [
     {
