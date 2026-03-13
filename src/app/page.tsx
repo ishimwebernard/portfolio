@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="mb-6 flex items-center gap-4 md:hidden">
                   <div className="border border-[color:var(--win-border)] bg-[color:var(--win-surface)] p-1">
                     <Image
-                      src="/bernard.png"
+                      src="https://res.cloudinary.com/bn47/image/upload/v1773420032/bernard_awdjrq.jpg"
                       alt="Portrait of Bernard Ishimwe"
                       width={88}
                       height={88}
