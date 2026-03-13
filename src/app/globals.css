@@ -1,26 +1,29 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --win-accent: oklch(37.9% 0.146 265.522);
+  --win-surface: oklch(86.9% 0.022 252.894);
+  --win-bg: #ffffff;
+  --win-fg: #111827;
+  --win-border: color-mix(in oklch, var(--win-accent) 18%, white);
+  --win-muted: color-mix(in oklch, var(--win-accent) 15%, black);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: var(--win-bg);
+  --color-foreground: var(--win-fg);
+  --font-sans: var(--font-ui);
+  --font-mono: var(--font-ui);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--win-surface);
+  color: var(--win-fg);
+  font-family: "Segoe UI", var(--font-sans), ui-sans-serif, system-ui,
+    -apple-system, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+a {
+  color: var(--win-accent);
 }
