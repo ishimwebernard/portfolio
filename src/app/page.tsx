@@ -16,8 +16,8 @@ export default function Home() {
   const linkedin = cv.contact.socials.find(
     (s) => s.label.toLowerCase() === "linkedin",
   );
-  const githubIsPlaceholder = !github?.href || github.href === "#";
-  const linkedinIsPlaceholder = !linkedin?.href || linkedin.href === "#";
+  const githubIsPlaceholder = false
+  const linkedinIsPlaceholder = false
 
   return (
     <div className="min-h-screen">
