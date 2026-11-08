@@ -49,13 +49,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="inline-flex items-center gap-2 border border-[color:var(--win-border)] bg-[color:var(--win-surface)] px-4 py-2 text-xs font-medium text-[color:var(--win-muted)]">
-                  Transportation and Machine Learning Engineer
+                  IT and Machine Learning Engineer
                 </div>
                 <h1 className="mt-5 text-4xl font-semibold tracking-tight text-[color:var(--win-fg)] sm:text-5xl">
                   {cv.name}
                 </h1>
                 <p className="mt-4 max-w-2xl text-base leading-7 text-[color:var(--win-muted)]">
-                  The goal is to bring as much tech as possible to the transportation engineering industry! Neural Networks, Data Clustering, Robotics, Computer Vision: These are my Avengers.
+                  3 NLP models trained (XLNet finetune, Qwen2.5-7B, Yolo), 1 android app and 1 in pipeline, 1 publication in pipeline
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">

@@ -35,6 +35,14 @@ export const cv = {
   },
   education: [
     {
+      school: "Carnegie Mellon University",
+      dates: "September 2026 – May 2028",
+      degreeOrProgram: "Msc, Information Technology",
+      details: [
+        "Relevant Coursework: Data Structures and Algorithms, Network Security, Information Security, Data, Inference and Applied Machine Learning",
+      ],
+    },
+        {
       school: "University of Rwanda, College of Science and Technology",
       dates: "September 2019 – June 2024",
       degreeOrProgram: "BSc. Civil and Transportation Engineering",

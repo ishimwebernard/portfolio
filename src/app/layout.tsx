@@ -11,7 +11,7 @@ const overpassMono = Overpass_Mono({
 export const metadata: Metadata = {
   title: "Bernard Ishimwe | Portfolio",
   description:
-    "Portfolio of Bernard Ishimwe — Civil & Transportation Engineering, ML, and geospatial research.",
+    "IT & Transportation Engineering, ML, and geospatial research.",
 };
 
 export default function RootLayout({
