@@ -55,7 +55,7 @@ export default function Home() {
                   {cv.name}
                 </h1>
                 <p className="mt-4 max-w-2xl text-base leading-7 text-[color:var(--win-muted)]">
-                  3 NLP models trained (XLNet finetune, Qwen2.5-7B, Yolo), 1 android app and 1 in pipeline, 1 publication in pipeline
+                  2 NLP models trained (XLNet finetune, Qwen2.5-7B), 1 Computer Vision ML model trained (Yolo), 1 android app and 1 in pipeline, 1 publication in pipeline
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">
